@@ -9,7 +9,7 @@ client.on('ready', () => {
 client.on('guildMemberAdd' ,member => {
   if(member.guild.id !== '508761735365263370') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '508765601636810768').send('**We are not a Friends We are a __Family__🎭**');
+  member.guild.channels.find(r => r.id === '508765601636810768').send('** - WeLocme to __# Orexn اوركسن .__ :champagne_glass: ,**');
 },3000);
 });
 var PrEfix = "$";
